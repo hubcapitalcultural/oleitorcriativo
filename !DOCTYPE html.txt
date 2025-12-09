@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Leitor Criativo | Amazon Associates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #FF9900;
+        }
+        .cta-button {
+            background: #FF9900;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px 0;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .disclaimer {
+            font-size: 14px;
+            color: #666;
+            margin-top: 30px;
+            padding: 15px;
+            background: #f2f2f2;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 O Leitor Criativo</h1>
+        <p>Seleção especial de livros e produtos para leitores criativos</p>
+        
+        <div style="margin: 30px 0;">
+            <h2>Produto em Destaque</h2>
+            <p>Confira esta recomendação exclusiva na Amazon:</p>
+        </div>
+        
+        <a href="SEU_LINK_AFILIADO_AQUI" target="_blank" class="cta-button">
+            🛒 Ver Preço na Amazon
+        </a>
+        
+        <div class="disclaimer">
+            <p><strong>Transparência:</strong> Este site contém links de afiliado da Amazon. Como Associado da Amazon, eu ganho com compras qualificadas. Os preços podem variar.</p>
+            <p style="margin-top: 10px;">Última atualização: <span id="date"></span></p>
+        </div>
+    </div>
+    
+    <script>
+        // Data atual automática
+        document.getElementById('date').textContent = 
+            new Date().toLocaleDateString('pt-BR');
+    </script>
+</body>
+</html>
